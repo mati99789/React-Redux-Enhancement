@@ -1,4 +1,4 @@
-import exChangeAPI from "./exChange.api";
+import exChangeAPI from "../components/exChange.api";
 
 const api = new exChangeAPI()
 

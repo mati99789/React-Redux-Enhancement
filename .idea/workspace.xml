@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb5d4f1e-55b3-4da0-8b93-551b2e3a2a87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/localStorage/localStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/exchangeLocal.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExChangeForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExChangeForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/exChangeAPIAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/exchangeAPI.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/exChangeAPIReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/exchangeAPI.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wVAEyOIew8pHhp4obJWyfoV85F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb5d4f1e-55b3-4da0-8b93-551b2e3a2a87" name="Default Changelist" comment="" />
+      <created>1628533274599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628533274599</updated>
+      <workItem from="1628533277044" duration="1202000" />
+      <workItem from="1628534879576" duration="1986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

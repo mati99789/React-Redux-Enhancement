@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux';
-import exChangeAPIReducer from './../components/exChangeAPIReducer';
+import exChangeAPIReducer from './exchangeAPI.reducer';
+import exChangeReducer from './exchangeLocal.reducer';
 
 const reducers = combineReducers({
-    exChangeAPI: exChangeAPIReducer
+    exChangeAPI: exChangeAPIReducer,
+    exChange: exChangeReducer
 });
 
 export default reducers;
