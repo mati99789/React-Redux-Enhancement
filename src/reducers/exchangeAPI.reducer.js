@@ -1,17 +1,17 @@
 const initialState = {
-    currencyData: [],
-}
+  currencyData: [],
+};
 
 const exChangeAPIReducer = (state = initialState, action) => {
-    switch (action.type) {
-        case 'getDataFromAPI':
-            return {
-                ...state,
-                currencyData: action.payload
-            };
-        default:
-            return state;
-    }
-}
+  switch (action.type) {
+    case 'getDataFromAPI':
+      return {
+        ...state,
+        currencyData: action.payload,
+      };
+    default:
+      return state;
+  }
+};
 
 export default exChangeAPIReducer;

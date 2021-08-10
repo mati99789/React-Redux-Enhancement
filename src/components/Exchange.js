@@ -1,14 +1,16 @@
 import React from 'react';
-import ExChangeForm from './ExChangeForm';
-
+import ExChangeForm from './Form/ExChangeForm';
+import Header from './Header/Header';
+import ExchangeTable from './Table/ExchangeTable';
 
 const Exchange = () => {
-    return(
-        <>
-            <h1 className='text-6xl'>Exchange!</h1>
-            <ExChangeForm />
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <ExChangeForm />
+      <ExchangeTable />
+    </>
+  );
+};
 
 export default Exchange;
