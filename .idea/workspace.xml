@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5d4f1e-55b3-4da0-8b93-551b2e3a2a87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/exchange.api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form/ExChangeForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/ExchangeTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/generateCurrency.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craco.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/craco.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/exchangeAPI.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/exchangeAPI.action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/exchangeLocal.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/exchangeLocal.action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/keyAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/keyAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExChangeForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Exchange.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Exchange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/exChange.api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/localStorage/localStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/localStorage/localStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/exchangeAPI.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/exchangeAPI.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/exchangeLocal.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/exchangeLocal.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +56,7 @@
       <workItem from="1628534879576" duration="2124000" />
       <workItem from="1628607527904" duration="7803000" />
       <workItem from="1628617163433" duration="11000" />
-      <workItem from="1628617274508" duration="4034000" />
+      <workItem from="1628617274508" duration="4990000" />
     </task>
     <servers />
   </component>
