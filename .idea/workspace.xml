@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb5d4f1e-55b3-4da0-8b93-551b2e3a2a87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hooks/useCountCurrentCurrency.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/getExchangeValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/exChange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/exChangeAPI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/exchange.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/Exchange.api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hooks/useCurrencyData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hooks/useRenderCurrencyRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/exchangeAPI.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/exchangeAPI.action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/exchangeLocal.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/exchangeLocal.action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Form/ExChangeForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/ExChangeForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/ExchangeTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/ExchangeTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/TableRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/generateCurrency.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/generateCurrency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/localStorage/localStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/localStorage/localStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/exchangeAPI.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/exchangeAPI.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/exchangeLocal.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/exchangeLocal.reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +73,7 @@
       <workItem from="1628607527904" duration="7803000" />
       <workItem from="1628617163433" duration="11000" />
       <workItem from="1628617274508" duration="4990000" />
-      <workItem from="1628766055925" duration="21321000" />
+      <workItem from="1628766055925" duration="24791000" />
     </task>
     <servers />
   </component>

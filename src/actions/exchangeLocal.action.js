@@ -24,14 +24,11 @@ export const setDataFromLocal = (data) => {
   };
 };
 
-export const addData = (data) => {
-  return {
+export const addData = (data) => (dispatch, getState) => {
+  dispatch({
     type: types.ADD_DATA,
     payload: data,
-  };
-};
-
-export const setDataToLocal = () => (dispatch, getState) => {
+  });
   const store = getState();
   localStorage.setData(store.exChange.data);
 };

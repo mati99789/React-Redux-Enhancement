@@ -26,7 +26,6 @@ const ExChangeForm = () => {
   const submitCurrency = (e) => {
     e.preventDefault();
     dispatch(addData(data));
-    dispatch(setDataToLocal());
   };
 
   return (
