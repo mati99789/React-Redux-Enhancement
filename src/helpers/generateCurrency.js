@@ -1,11 +1,9 @@
-import { v4 as uuidv4 } from 'uuid';
-
-const generateCurrency = (rates) => {
+const generateCurrency = (rates, error) => {
   if (rates !== undefined) {
     const currencyArray = Object.keys(rates);
     const renderCurrency = currencyArray.map((item) => {
       return (
-        <option key={uuidv4()} value={item}>
+        <option key={item} value={item}>
           {item}
         </option>
       );
@@ -13,8 +11,8 @@ const generateCurrency = (rates) => {
     return renderCurrency;
   }
   return (
-    <option key={uuidv4()} value="nothing">
-      Nothing
+    <option key={error} value="nothing">
+      {error}
     </option>
   );
 };

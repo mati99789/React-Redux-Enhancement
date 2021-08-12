@@ -1,6 +1,5 @@
 const initialState = {
   amountFiled: '',
-  currencySubmitetData: [],
   currencyField: 'AED',
   data: [],
 };
@@ -20,7 +19,7 @@ const reducers = (state = initialState, action) => {
     case 'setDataFromLocal':
       return {
         ...state,
-        data: [...state.data, action.payload],
+        data: action.payload,
       };
     case 'addData':
       return {

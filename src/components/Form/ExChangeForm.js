@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 import { useSelector, useDispatch } from 'react-redux';
 import { getData } from '../../actions/exchangeAPI.action';
-import useCurrencyData from '../../Hooks/useCurrencyData';
+import useRenderCurrencyRow from '../../Hooks/useRenderCurrencyRow';
 import {
   getUserAmount,
   getUserCurrency,
@@ -13,16 +12,16 @@ import {
 import generateCurrency from '../../helpers/generateCurrency';
 
 const ExChangeForm = () => {
-  const { currencyData } = useSelector((state) => state.exChangeAPI);
+  const { currencyData, error } = useSelector((state) => state.exChangeAPI);
   const { currencyField } = useSelector((state) => state.exChange);
   const dispatch = useDispatch();
-  const [data] = useCurrencyData();
+  const [data] = useRenderCurrencyRow();
   const { rates } = currencyData;
 
   useEffect(() => {
     dispatch(getData());
     dispatch(getDataFromLocal());
-  }, []);
+  }, [dispatch]);
 
   const submitCurrency = (e) => {
     e.preventDefault();
@@ -42,7 +41,7 @@ const ExChangeForm = () => {
         value={currencyField}
         onChange={(e) => dispatch(getUserCurrency(e.target.value))}
       >
-        {generateCurrency(rates)}
+        {generateCurrency(rates, error)}
       </select>
       <label htmlFor="amount">Amount: </label>
       <input

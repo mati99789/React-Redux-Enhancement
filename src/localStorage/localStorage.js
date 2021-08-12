@@ -1,5 +1,5 @@
 class LocalStorage {
-  getDataFromLocal() {
+  getData() {
     if (localStorage.getItem('data')) {
       const newData = JSON.parse(localStorage.getItem('data'));
       return newData;
@@ -7,7 +7,7 @@ class LocalStorage {
     return [];
   }
 
-  setNewDataToLocal(data) {
+  setData(data) {
     window.localStorage.setItem('data', JSON.stringify(data));
   }
 }

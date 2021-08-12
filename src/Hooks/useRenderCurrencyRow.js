@@ -1,33 +1,26 @@
 import { useSelector } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
+import { getExchangeValue } from '../helpers/getExchangeValue';
 
-const useCurrencyData = () => {
+const useRenderCurrencyRow = () => {
   const { currencyData } = useSelector((state) => state.exChangeAPI);
   const { amountFiled, currencyField } = useSelector((state) => state.exChange);
   const { rates, date } = currencyData;
 
-  const getCourse = (rates) => {
-    if (rates !== undefined) {
-      for (const [key, value] of Object.entries(rates)) {
-        if (currencyField === key) {
-          return value;
-        }
-      }
-    }
-  };
-
-  const countCurrentlyCurrency = (currencyValue) => {
+  const countPurchaseCurrency = (currencyValue) => {
     return (amountFiled * currencyValue).toFixed(2);
   };
 
   const dataForTables = () => {
-    const currencyValue = getCourse(rates);
-    const currentValue = countCurrentlyCurrency(currencyValue);
+    const currencyValue = getExchangeValue(rates, currencyField);
+    const purchaseSum = countPurchaseCurrency(currencyValue);
     const data = {
       amountFiled,
       currencyField,
       currencyValue,
       date,
-      currentValue,
+      purchaseSum,
+      id: uuidv4(),
     };
     return data;
   };
@@ -35,4 +28,4 @@ const useCurrencyData = () => {
   return [dataForTables()];
 };
 
-export default useCurrencyData;
+export default useRenderCurrencyRow;

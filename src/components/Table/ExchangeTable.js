@@ -15,9 +15,7 @@ const ExchangeTable = () => {
           <th className="border border-green-600 ...">Win/Loss</th>
         </tr>
       </thead>
-      <tbody>
-        <TableRow />
-      </tbody>
+      <TableRow />
     </table>
   );
 };
